@@ -1,0 +1,176 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.banner-section{
+    background-image: url("assets/mushe.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    border-bottom: 8px solid #222;
+    position: relative;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 45px;
+    margin: 0 45px;
+    padding-top: 45px;
+
+}
+.navbar svg{
+    height: 200px;
+}
+.navbar a{
+    padding: 15px;
+    background: red;
+    color: white;
+    border-radius: 5%;
+    text-decoration: none;
+}
+.banner-container {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100% - 45px) ;
+    text-align: center;
+}
+h1{
+    font-size:2rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: ;
+}
+h2{
+    margin-bottom: 15px;
+    
+}
+
+.get-started{
+    height: 60px;
+    display: flex;
+}
+button{
+    background: red;
+    color: white;
+}
+.get-started  input{
+    height: 60px;
+    width: 450px;
+    padding-left: 10px;
+}
+.get-started{
+    height: 60px;
+    display: flex;
+}
+
+.title{
+    font-size: 3rem;
+    text-align: center;
+}
+.subtitle{
+    margin: 16px 0 0;
+    font-size: 18px;
+    color: #ffffff;
+}
+form{
+    margin: 16px;
+    border-radius: 5px;
+}
+input{
+    border-color: rgb(255, 254, 254);
+    background:transparent;
+    text-rendering: auto;
+    cursor: text;
+    color: #ececec;
+
+}
+
+.info-section {
+    background: black;
+    color: white;
+    display: flex;
+    padding: 70px 45px;
+    border-bottom: 8px solid #222;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tv-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tv-container img {
+    z-index: 1;
+}
+
+.tv-container video {
+    position: absolute;
+}
+.footer {
+    background: black;
+}
+.footer-items {
+    margin: 0 47.5px;
+    padding: 70px 45px;
+}
+
+.footer-top {
+    margin-bottom: 30px;
+}
+.footer ul li, .questions-title {
+    color: #757575;
+}
+
+.footer ul li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.questions-title:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: white;
+}
+
+.footer-links {
+    list-style-type: none;
+    columns: 4;
+    padding: 0;
+}    
+.language {
+    height: 53px;
+    width: 142px;
+    color: #999999;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: 1px solid #999999;
+    padding: 0 10px;
+    margin: 30px;
+
+
+}
+
+.language select {
+    margin-left: 10px;
+    border: none;
+    appearance: none;
+    background: black;
+    color: #999999;
+    
+}
